@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "247033378240",
+    "project_id": "staging-flavor",
+    "storage_bucket": "staging-flavor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247033378240:android:34848b2b64cf6effcb4425",
+        "android_client_info": {
+          "package_name": "com.trippletop.environment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247033378240-qgn7cag7sr2rtvnc3n6lfrb562503mca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCff26-lUTMeCj-a29kNDzaJ3qJ7VbBD9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247033378240-qgn7cag7sr2rtvnc3n6lfrb562503mca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

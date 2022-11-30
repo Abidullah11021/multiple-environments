@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995406953575",
+    "project_id": "product-flavor",
+    "storage_bucket": "product-flavor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995406953575:android:ee7f93f0cdb2822cc268c2",
+        "android_client_info": {
+          "package_name": "com.trippletop.environment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995406953575-23scvoqqqi36a317gbi3ccjid9oao58g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0tO93IbBwIQw8NiCFvPolOjJoOzPojro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995406953575-23scvoqqqi36a317gbi3ccjid9oao58g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

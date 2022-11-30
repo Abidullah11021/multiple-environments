@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "608392037276",
+    "project_id": "development-flavor",
+    "storage_bucket": "development-flavor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608392037276:android:80080833358aeec891be59",
+        "android_client_info": {
+          "package_name": "com.trippletop.environment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608392037276-60c7b6o0b0ft5japp57k48quvpnafm54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjySRkWA0rzATgy-Ap9zWCcQk-St9zE68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608392037276-60c7b6o0b0ft5japp57k48quvpnafm54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608392037276:android:c91a8b71835ca9f691be59",
+        "android_client_info": {
+          "package_name": "com.trippletop.keen_finance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608392037276-60c7b6o0b0ft5japp57k48quvpnafm54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjySRkWA0rzATgy-Ap9zWCcQk-St9zE68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608392037276-60c7b6o0b0ft5japp57k48quvpnafm54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
