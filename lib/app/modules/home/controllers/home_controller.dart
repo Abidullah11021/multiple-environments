@@ -12,11 +12,11 @@ class HomeController extends GetxController {
     super.onInit();
   }
 
-  Future<void> setDoc({required String flavor}) async {
+  Future<void> setDoc() async {
     await FirebaseFirestore.instance
         .collection('Dummy')
-        .doc('atext')
-        .set({'text': 'this is text of $flavor'});
+        .doc('text')
+        .set({'text': 'this is text'});
   }
 
   @override

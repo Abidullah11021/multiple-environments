@@ -1,17 +1,19 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import 'app.dart';
 
 void main() async {
+  DotEnv dotenv = DotEnv();
+  await dotenv.load(fileName: "env_files/development.env");
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
       options: FirebaseOptions(
-    apiKey: 'AIzaSyDjySRkWA0rzATgy-Ap9zWCcQk-St9zE68',
-    appId: '1:608392037276:android:80080833358aeec891be59',
-    messagingSenderId: '608392037276',
-    projectId: 'development-flavor',
-    storageBucket: 'development-flavor.appspot.com',
-  ));
+          apiKey: dotenv.env['API_KEY']!,
+          appId: dotenv.env['APP_ID']!,
+          messagingSenderId: dotenv.env['MESSAGING_SENDER_ID']!,
+          projectId: dotenv.env['PROJECT_ID']!,
+          storageBucket: dotenv.env['STORAGE_BUCKET']));
   runApp(App('development'));
 }
